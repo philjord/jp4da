@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\phil\AndroidStudioProjects\jp4da-android\app\libs\jogl-test-android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d1bb29864fd269517007598b785c7ecaa865d5c0">
+        <dex dex="C:\Users\phil\AndroidStudioProjects\jp4da-android\app\build\intermediates\pre-dexed\debug\jogl-test-android_9f1f7271f55c385c937e8be5db1e3912a4ea8369.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\phil\AndroidStudioProjects\jp4da-android\app\libs\jogl-all-android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="506a04966f81d75c2eb15fd1004225296e73c782">
+        <dex dex="C:\Users\phil\AndroidStudioProjects\jp4da-android\app\build\intermediates\pre-dexed\debug\jogl-all-android_9b3c2e0f763bdb353487e9d7779a560d7982e3d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\phil\AndroidStudioProjects\jp4da-android\app\libs\gluegen-rt-android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4ac2f75e31424ece97dabb225ba3cfb4fd332909">
+        <dex dex="C:\Users\phil\AndroidStudioProjects\jp4da-android\app\build\intermediates\pre-dexed\debug\gluegen-rt-android_8d28e1b857f851e6de702f3dd23479b6e1564490.jar" />
+    </item>
+
+</items>
