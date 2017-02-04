@@ -23,11 +23,14 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt')
         }
     }
+    packagingOptions {
+        pickFirst 'lib/armeabi/libstlport_shared.so'
+    }
+
 }
 
 dependencies {
-    compile files('libs/jogl-all-android.jar')
-    compile files('libs/gluegen-rt-android.jar')
-    compile fileTree(include: '*.jar', dir: 'libs')
-    compile files('libs/jogl-test-android.jar')
+    def jogl = '2.3.2'
+    compile "org.jogamp.gluegen:gluegen-rt-android:$jogl"
+    compile "org.jogamp.jogl:jogl-all-android:$jogl"
 }
