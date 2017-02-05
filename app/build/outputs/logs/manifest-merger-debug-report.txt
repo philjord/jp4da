@@ -2,7 +2,7 @@
 manifest
 ADDED from C:\Users\phil\AndroidStudioProjects\jp4da-android\app\src\main\AndroidManifest.xml:2:1-16:12
 	package
-		ADDED from C:\Users\phil\AndroidStudioProjects\jp4da-android\app\src\main\AndroidManifest.xml:4:3-36
+		ADDED from C:\Users\phil\AndroidStudioProjects\jp4da-android\app\src\main\AndroidManifest.xml:4:3-46
 		INJECTED from C:\Users\phil\AndroidStudioProjects\jp4da-android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\phil\AndroidStudioProjects\jp4da-android\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -31,7 +31,7 @@ ADDED from C:\Users\phil\AndroidStudioProjects\jp4da-android\app\src\main\Androi
 		ADDED from C:\Users\phil\AndroidStudioProjects\jp4da-android\app\src\main\AndroidManifest.xml:8:16-48
 	android:icon
 		ADDED from C:\Users\phil\AndroidStudioProjects\jp4da-android\app\src\main\AndroidManifest.xml:8:49-85
-activity#com.io7m.examples.jp4da.MainActivity
+activity#com.jogamp.examples.simpleandroid.MainActivity
 ADDED from C:\Users\phil\AndroidStudioProjects\jp4da-android\app\src\main\AndroidManifest.xml:9:5-14:16
 	android:label
 		ADDED from C:\Users\phil\AndroidStudioProjects\jp4da-android\app\src\main\AndroidManifest.xml:9:43-75

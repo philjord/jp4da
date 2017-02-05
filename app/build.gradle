@@ -4,7 +4,7 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "com.io7m.examples.jp4da"
+        applicationId "com.jogamp.examples.simpleandroid"
         minSdkVersion 15
         targetSdkVersion 15
         compileOptions {
@@ -23,9 +23,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt')
         }
     }
-    packagingOptions {
-        pickFirst 'lib/armeabi/libstlport_shared.so'
-    }
+    //packagingOptions {
+    //    pickFirst 'lib/armeabi/libstlport_shared.so'
+    //}
 
 }
 
@@ -33,4 +33,5 @@ dependencies {
     def jogl = '2.3.2'
     compile "org.jogamp.gluegen:gluegen-rt-android:$jogl"
     compile "org.jogamp.jogl:jogl-all-android:$jogl"
+    compile files('libs/jogamp-armv6.jar')
 }
